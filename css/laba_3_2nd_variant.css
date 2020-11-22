@@ -1,0 +1,423 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none 
+}
+a {
+    text-decoration: none;
+}
+button { outline: none; }
+body {
+    min-width: 800px;
+    background: #F0F1F3;
+}
+.page-block {
+    max-width: 1496px;
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.logo {
+    display: block;
+    height: 36px;
+    object-fit: cover;
+}
+.header .actions {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.actions button {
+    padding: 10px 24px;
+    border-radius: 22px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #3C3C3C;
+    border: 1px solid #D2D2D2
+
+}
+.actions .sign {
+    color: #FFFFFF;
+    background: #4792DE;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+.show-card {
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.poster {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.show-card .offer {
+    position: absolute;
+    bottom: 0;
+}
+.offer {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.try {
+    margin-left: 16px;
+    padding: 12px 32px;
+    background-color: #FF5D3E;
+    border-radius: 22px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text {
+    margin-bottom: 56px;
+    text-align: center;
+    color: #3C3C3C;
+}
+
+.page-block h1 {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px
+}
+.text p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@media (max-width: 1300px){
+    .page-block {
+        margin: 0 auto;
+    }
+    .image-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block {
+        margin-right: 0;
+    }
+
+}
+
+
+.image-block {
+    margin-bottom: 40px;
+    display: flex;
+}
+.block {
+    margin-right: 24px;
+}
+h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+.thumb {
+    position: relative;
+    width: 736px;
+    height: 364px;
+}
+.thumb img {
+    width: 364px;
+}
+.thumb .thumb-a {
+    position: absolute;
+    top: 2;
+    left: 0;
+    height: 364px;
+}
+.thumb .thumb-b {
+    position: absolute;
+    top: 2;
+    right: 0;
+    height: 178px;
+    object-fit: cover;
+}
+.thumb .thumb-c {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 178px;
+    object-fit: cover;
+}
+.thumb .thumb-d {
+    position: absolute;
+    top: 2;
+    right: 0;
+    height: 364px;
+    object-fit: cover;
+}
+.ex {
+    display: flex;
+}
+.ex img {
+    width: 240px;
+}
+.thumb-e {
+    margin-right: 8px;
+    width: 240px;
+    height: 364px;
+    object-fit: cover;
+}
+.thumb-e:last-child {
+    margin-right: 0;
+}
+.thumb .thumb-f {
+    position: absolute;
+    top: 2;
+    left: 0;
+    height: 178px;
+    object-fit: cover;
+}
+.thumb .thumb-g {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 178px;
+    object-fit: cover;
+}
+.fresh {
+    margin-bottom: 100px;
+}
+
+.data {
+    padding-top: 90px;
+    width: 100%;
+    height: 520px;
+    margin-bottom: 100px;
+    background-image: url(https://st4.depositphotos.com/1025323/38519/i/1600/depositphotos_385193080-stock-photo-spectral-passcode-secret-password-series.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.data-form {
+    margin: auto;
+    padding: 46px 68px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+}
+h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+form {
+    margin-bottom: 16px;
+}
+form input {
+    margin-bottom: 12px;
+    width: 100%;
+    height: 40px;
+    padding-left: 16px;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+}
+.password {
+    margin-bottom: 16px;
+}
+form button {
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 22px;
+    border: none;
+    background-color: #4792DE;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.top-stock {
+    margin-bottom: 96px;
+}
+.top-stock h2 {
+    margin-bottom: 24px;
+}
+.stock {
+    text-align: center;
+}
+.stock li {
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding: 11px 32px;
+    border-radius: 24px;
+    border: 1px solid #DCDCDC;
+}
+li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.stock li:hover {
+    cursor: pointer;
+    background-color: #E2EEFA;
+    border-color: #E2EEFA;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    background-color: #323232;
+}
+.footer {
+    margin-bottom: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer h4 {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.footer ul {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    color: #AAAAAA;
+    white-space: nowrap;
+}
+.footer a {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+ul li:last-child {
+    margin-bottom: 0;
+}
+.deposit {
+    margin-right: 123px;
+}
+.site-lng {
+    margin-right: 43px;
+}
+.language {
+    display: flex;
+    flex-direction: row;
+
+}
+.language .language-1 {
+    margin-right: 42px;
+}
+
+.legal-inf {
+    width: 173px;
+    margin-right: 67px;
+}
+.legal-inf ul {
+    margin-bottom: 24px;
+}
+.legal-inf div {
+    font-size: 11px;
+    color:#D2D2D2;
+}
+.app {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 116px;
+}
+.app span {
+    font-size: 15px;
+}
+.app img {
+    margin-right: 2px;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.store {
+    font-size: 10px;
+}
+
+.bird {
+    display: flex;
+    flex-direction: column;
+    width: 173px;
+}
+.bird img {
+    width: 108px;
+    height: 11px;
+    object-fit: cover;
+}
+
+.support h4 {
+    margin-bottom: 31px;
+}
+.support div {
+    display: flex;
+    font-size: 12px;
+    color: #AAAAAA;
+}
+.phone img{
+    margin-right: 16px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.contacts img {
+    margin-right: 16px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.phone {
+    margin-bottom: 36px;
+}
+.contacts {
+    margin-bottom: 8px;
+}
+.last {
+    margin-bottom: 46px;
+}
+.nets {
+    display: flex;
+    width: 96px;
+    height: 40px;
+}
+.nets img {
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.footer-block .footer-text {
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 12px;
+    color: #AAAAAA;
+    
+}
+
+
